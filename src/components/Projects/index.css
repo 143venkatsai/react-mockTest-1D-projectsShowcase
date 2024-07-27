@@ -1,0 +1,81 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f5f9;
+  padding: 15px 80px;
+}
+
+.website-logo {
+  height: 50px;
+  width: 110px;
+}
+
+.category-list {
+  align-self: flex-start;
+  margin: 30px 80px;
+  width: 30%;
+  padding: 10px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  outline: none;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+}
+
+.failure-image {
+  height: 250px;
+  width: 350px;
+}
+
+.failure-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #475569;
+  margin-bottom: 15px;
+}
+
+.failure-message {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #475569;
+  margin-top: 0px;
+}
+
+.retry-button {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #328af2;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 25px;
+  outline: none;
+  cursor: pointer;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.projects-list {
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 15px 80px;
+}
